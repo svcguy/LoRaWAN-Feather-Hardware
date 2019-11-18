@@ -1171,10 +1171,10 @@
       (net 2 GND))
     (pad 6 smd rect (at 0.935 1.385) (size 2.5 1.43) (layers F.Cu F.Paste F.Mask)
       (net 2 GND))
-    (model ${KISYS3DMOD}/Connector_USB.3dshapes/USB_Micro-B_Amphenol_10103594-0001LF_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model C:/Users/svcgu/OneDrive/Documents/KICAD/custom-kicad/3d/10103594.stp
+      (offset (xyz 0 0.0762 2.2098))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 90 0 180))
     )
   )
 
@@ -1223,10 +1223,10 @@
       (net 23 "Net-(J1-Pad2)"))
     (pad MP smd roundrect (at -3.35 2.9 180) (size 1.5 3.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.166667))
     (pad MP smd roundrect (at 3.35 2.9 180) (size 1.5 3.4) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.166667))
-    (model ${KISYS3DMOD}/Connector_JST.3dshapes/JST_PH_S2B-PH-SM4-TB_1x02-1MP_P2.00mm_Horizontal.wrl
-      (at (xyz 0 0 0))
+    (model C:/Users/svcgu/OneDrive/Documents/KICAD/custom-kicad/3d/s2b-ph-sm4-tb.step
+      (offset (xyz -7.874 12.7 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -1375,6 +1375,11 @@
       (net 2 GND))
     (pad 1 thru_hole circle (at -0.7 0) (size 1.75 1.75) (drill 1.2) (layers *.Cu *.Mask)
       (net 1 "Net-(AE1-Pad1)"))
+    (model C:/Users/svcgu/OneDrive/Documents/KICAD/custom-kicad/3d/sma-j-p-h-st-em1.stp
+      (offset (xyz 4.2926 0 0.508))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 -90 90))
+    )
   )
 
   (module jlcpcb_smt:C_0402_1005Metric (layer F.Cu) (tedit 5DB5D574) (tstamp 5DC24857)
