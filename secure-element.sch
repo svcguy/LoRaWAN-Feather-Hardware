@@ -23,6 +23,7 @@ F 1 "ATECC608A-SSHDA" H 5150 3950 50  0000 R CNN
 F 2 "jlcpcb_smt:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 3750 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 5600 4000 50  0001 C CNN
 F 4 "C376619" H 5450 3750 50  0001 C CNN "LCSC"
+F 5 "ATECC608A-SSHCZ-TCT-ND" H 5450 3750 50  0001 C CNN "Digikey"
 	1    5450 3750
 	1    0    0    -1  
 $EndComp
@@ -35,6 +36,7 @@ F 1 "0.1uF" H 4315 3705 50  0000 L CNN
 F 2 "jlcpcb_smt:C_0402_1005Metric" H 4238 3600 50  0001 C CNN
 F 3 "~" H 4200 3750 50  0001 C CNN
 F 4 "C1525" H 4200 3750 50  0001 C CNN "LCSC"
+F 5 "490-14603-1-ND" H 4200 3750 50  0001 C CNN "Digikey"
 	1    4200 3750
 	1    0    0    -1  
 $EndComp
@@ -47,6 +49,7 @@ F 1 "1uF" H 3915 3705 50  0000 L CNN
 F 2 "jlcpcb_smt:C_0402_1005Metric" H 3838 3600 50  0001 C CNN
 F 3 "~" H 3800 3750 50  0001 C CNN
 F 4 "C52923" H 3800 3750 50  0001 C CNN "LCSC"
+F 5 "311-1439-1-ND" H 3800 3750 50  0001 C CNN "Digikey"
 	1    3800 3750
 	1    0    0    -1  
 $EndComp
@@ -109,10 +112,10 @@ Wire Wire Line
 Wire Wire Line
 	5950 3850 5750 3850
 $Comp
-L Graphic:Logo_Open_Hardware_Small #LOGO?
+L Graphic:Logo_Open_Hardware_Small #LOGO5
 U 1 1 5DD38B9F
 P 10750 6900
-F 0 "#LOGO?" H 10750 7175 50  0001 C CNN
+F 0 "#LOGO5" H 10750 7175 50  0001 C CNN
 F 1 "Logo_Open_Hardware_Small" H 10750 6675 50  0001 C CNN
 F 2 "" H 10750 6900 50  0001 C CNN
 F 3 "~" H 10750 6900 50  0001 C CNN
@@ -120,10 +123,10 @@ F 3 "~" H 10750 6900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Graphic:SYM_Radio_Waves_Large #SYM?
+L Graphic:SYM_Radio_Waves_Large #SYM5
 U 1 1 5DD38BA5
 P 10200 6850
-F 0 "#SYM?" H 10200 7050 50  0001 C CNN
+F 0 "#SYM5" H 10200 7050 50  0001 C CNN
 F 1 "SYM_Radio_Waves_Large" H 10200 6600 50  0001 C CNN
 F 2 "" H 10200 6650 50  0001 C CNN
 F 3 "~" H 10230 6650 50  0001 C CNN
