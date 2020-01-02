@@ -272,23 +272,23 @@ Wire Wire Line
 $Comp
 L Graphic:Logo_Open_Hardware_Small #LOGO4
 U 1 1 5DD37E60
-P 10750 6850
-F 0 "#LOGO4" H 10750 7125 50  0001 C CNN
-F 1 "Logo_Open_Hardware_Small" H 10750 6625 50  0001 C CNN
-F 2 "" H 10750 6850 50  0001 C CNN
-F 3 "~" H 10750 6850 50  0001 C CNN
-	1    10750 6850
+P 10750 6900
+F 0 "#LOGO4" H 10750 7175 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 10750 6675 50  0001 C CNN
+F 2 "" H 10750 6900 50  0001 C CNN
+F 3 "~" H 10750 6900 50  0001 C CNN
+	1    10750 6900
 	1    0    0    -1  
 $EndComp
 $Comp
 L Graphic:SYM_Radio_Waves_Large #SYM4
 U 1 1 5DD37E66
-P 10200 6800
-F 0 "#SYM4" H 10200 7000 50  0001 C CNN
-F 1 "SYM_Radio_Waves_Large" H 10200 6550 50  0001 C CNN
-F 2 "" H 10200 6600 50  0001 C CNN
-F 3 "~" H 10230 6600 50  0001 C CNN
-	1    10200 6800
+P 10200 6850
+F 0 "#SYM4" H 10200 7050 50  0001 C CNN
+F 1 "SYM_Radio_Waves_Large" H 10200 6600 50  0001 C CNN
+F 2 "" H 10200 6650 50  0001 C CNN
+F 3 "~" H 10230 6650 50  0001 C CNN
+	1    10200 6850
 	1    0    0    -1  
 $EndComp
 $Bitmap
@@ -655,7 +655,7 @@ CE 9F E7 06 11 89 8D 8D 15 6A 27 8F 88 88 80 A1 A1 21 00 C8 CC 17 44 91 B4 98 D6
 60 82 
 EndData
 $EndBitmap
-Text Notes 7000 6650 0    50   Italic 0
+Text Notes 9900 6650 0    50   Italic 0
 https://www.adafruit.com/feather
 $Bitmap
 Pos 8350 6800

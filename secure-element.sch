@@ -15,19 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Security:ATECC608A-SSHDA U8
-U 1 1 5D8DE4B5
-P 5450 3750
-F 0 "U8" H 5100 4050 50  0000 R CNN
-F 1 "ATECC608A-SSHDA" H 5150 3950 50  0000 R CNN
-F 2 "jlcpcb_smt:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 3750 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 5600 4000 50  0001 C CNN
-F 4 "C376619" H 5450 3750 50  0001 C CNN "LCSC"
-F 5 "ATECC608A-SSHCZ-TCT-ND" H 5450 3750 50  0001 C CNN "Digikey"
-	1    5450 3750
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C17
 U 1 1 5D8DE8E2
 P 4200 3750
@@ -102,13 +89,11 @@ Wire Wire Line
 	4200 3900 4200 4250
 Connection ~ 4200 4250
 Wire Wire Line
-	4200 4250 5450 4250
-Text HLabel 5950 3650 2    50   BiDi Italic 0
+	4200 4250 4900 4250
+Text HLabel 5950 3750 2    50   BiDi Italic 0
 I2C_SDA
 Text HLabel 5950 3850 2    50   Input Italic 0
 I2C_SCL
-Wire Wire Line
-	5950 3650 5750 3650
 Wire Wire Line
 	5950 3850 5750 3850
 $Comp
@@ -497,7 +482,7 @@ CE 9F E7 06 11 89 8D 8D 15 6A 27 8F 88 88 80 A1 A1 21 00 C8 CC 17 44 91 B4 98 D6
 60 82 
 EndData
 $EndBitmap
-Text Notes 7000 6700 0    50   Italic 0
+Text Notes 9850 6650 0    50   Italic 0
 https://www.adafruit.com/feather
 $Bitmap
 Pos 8350 6850
@@ -1232,4 +1217,44 @@ D5 7D 92 AF B4 E1 7F 04 CF 51 9B 8E 12 FD BF 26 E6 7F 49 8E 93 7C 47 F2 3F 23 BE
 AF 8A A8 F9 F4 EE 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+$Comp
+L Custom_KiCAD:SOIC8-CRYPTO-FRAM U8
+U 1 1 5E0CF6E5
+P 5450 3750
+F 0 "U8" H 5650 4150 50  0000 C CNN
+F 1 "SOIC8-CRYPTO-FRAM" H 6000 4050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5450 3750 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/ATECC608A-CryptoAuthentication-Device-Summary-Data-Sheet-DS40001977B.pdf" H 5600 4000 50  0001 C CNN
+	1    5450 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3750 5750 3750
+Wire Wire Line
+	5750 3650 6500 3650
+Wire Wire Line
+	6500 3650 6500 4250
+Wire Wire Line
+	6500 4250 5450 4250
+Wire Wire Line
+	5150 3650 4900 3650
+Wire Wire Line
+	4900 3650 4900 3750
+Connection ~ 4900 4250
+Wire Wire Line
+	4900 4250 5450 4250
+Wire Wire Line
+	5150 3750 4900 3750
+Connection ~ 4900 3750
+Wire Wire Line
+	4900 3750 4900 3850
+Wire Wire Line
+	5150 3850 4900 3850
+Connection ~ 4900 3850
+Wire Wire Line
+	4900 3850 4900 4250
+Text Notes 5600 3300 0    50   ~ 10
+NOTE 1
+Text Notes 750  6500 0    50   Italic 0
+Note 1:  U8 can be fitted with either ATECC608A crypto or FM24CL04B FRAM
 $EndSCHEMATC

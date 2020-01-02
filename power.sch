@@ -874,7 +874,7 @@ CE 9F E7 06 11 89 8D 8D 15 6A 27 8F 88 88 80 A1 A1 21 00 C8 CC 17 44 91 B4 98 D6
 60 82 
 EndData
 $EndBitmap
-Text Notes 7150 6700 0    50   Italic 0
+Text Notes 9850 6650 0    50   Italic 0
 https://www.adafruit.com/feather
 $Bitmap
 Pos 8500 6850
